@@ -5,3 +5,4 @@ Public repository for SE homework 1
 [![GitHub license](https://img.shields.io/github/license/SE-vrs-organization/SE-hw1)](https://github.com/SE-vrs-organization/SE-hw1/blob/main/LICENSE)
 [![Platform-Linux](https://img.shields.io/badge/Platform-Linux-blue)](https://www.linux.org/)
 
+![Pytest](https://github.com/SE-vrs-organization/SE-hw1/actions/workflows/ci.yaml/badge.svg?event=push)
