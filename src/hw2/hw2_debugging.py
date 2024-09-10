@@ -3,8 +3,7 @@ This module deals with generating a random list, and using
 merge sort to produce a sorted version of the same
 """
 
-import rand
-
+from hw2.rand import random_array
 
 def merge_sort(arr):
     """
@@ -56,7 +55,7 @@ def recombine(left_arr, right_arr):
     return merge_arr
 
 
-random_array = rand.random_array([None] * 20)
-arr_out = merge_sort([])
+random_array = random_array([None] * 20)
+arr_out = merge_sort(random_array)
 
 print(arr_out)

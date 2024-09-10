@@ -5,7 +5,7 @@ def calculate_square(number: int):
 
 # a "wrong" function that would fail the test case (as is not calculating cube)
 def calculate_cube(number: int):
-    return number**4
+    return number**3
 
 def test_square():
     assert calculate_square(3) == 9
