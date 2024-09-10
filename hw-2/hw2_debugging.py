@@ -16,7 +16,7 @@ def merge_sort(arr):
     Returns:
         Sorted version of the original list
     """
-    if len(arr) == 1:
+    if len(arr) <= 1:
         return arr
 
     half = len(arr) // 2
@@ -57,6 +57,6 @@ def recombine(left_arr, right_arr):
 
 
 random_array = rand.random_array([None] * 20)
-arr_out = merge_sort(random_array)
+arr_out = merge_sort([])
 
 print(arr_out)
