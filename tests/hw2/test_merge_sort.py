@@ -1,4 +1,10 @@
 import pytest
+import sys
+import os
+
+# Add the src/hw2 directory to the system path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
+
 from hw2.hw2_debugging import merge_sort
 
 def test_merge_sort_basic_unsorted_list():
