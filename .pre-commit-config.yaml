@@ -4,11 +4,15 @@ repos:
     hooks:
       - id: autopep8
         args: [--max-line-length=79]
-  - repo: https://github.com/pre-commit/mirrors-pylint
-    rev: ''
+  - repo: local
     hooks:
       - id: pylint
-        args: ["--disable=R,C"]  # Optional: disable warnings/errors
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        args: ["-rn", "-sn", "--rcfile=pylintrc", "--fail-on=I"]
+        exclude: tests(/\w*)*/functional/|tests/input|tests(/\w*)*data/|doc/
   - repo: local
     hooks:
       - id: radon
