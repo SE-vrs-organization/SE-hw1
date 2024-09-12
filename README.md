@@ -5,8 +5,9 @@ Public repository for SE homework 1
 [![GitHub license](https://img.shields.io/github/license/SE-vrs-organization/SE-hw1)](https://github.com/SE-vrs-organization/SE-hw1/blob/main/LICENSE)
 [![Platform-Linux](https://img.shields.io/badge/Platform-Linux-blue)](https://www.linux.org/)
 
-![Pytest](https://github.com/SE-vrs-organization/SE-hw1/actions/workflows/ci.yaml/badge.svg?event=push)
+[![Pytest](https://github.com/SE-vrs-organization/SE-hw1/actions/workflows/ci.yaml/badge.svg?event=push)]
+[![AutoPEP8](https://img.shields.io/badge/code%20style-autopep8-brightgreen)]
 
-![Pylint](https://img.shields.io/badge/pylint-passing-brightgreen)
+[![Pylint](https://img.shields.io/badge/pylint-passing-brightgreen)]
 
-![Radon](https://img.shields.io/badge/radon-passing-brightgreen)
+[![Radon](https://img.shields.io/badge/radon-passing-brightgreen)]
