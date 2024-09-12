@@ -34,7 +34,7 @@ jobs:
           radon cc -nc src/hw2/hw2_debugging.py
 
       - name: Run tests
-        run: pytest src/tests/hw2/test_merge_sort.py
+        run: pytest tests/hw2/test_merge_sort.py
 
       - name: Test with pytest
         run: |
