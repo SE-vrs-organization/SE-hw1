@@ -21,18 +21,20 @@ jobs:
       - name: Install dependencies
         run: |
           pip install autopep8 pylint radon pytest
-          pip install -r requirements.txt
 
+      - name: Run autopep8
+        run: |
+          autopep8 --in-place --aggressive --aggressive src/hw2_debugging.py
       - name: Run linting
         run: |
-          pylint your_module/
+          pylint src/hw2_debugging.py
 
       - name: Run Radon Cyclomatic Complexity
         run: |
-          radon cc -nc your_module/
+          radon cc -nc src/hw2_debugging.py
 
       - name: Run tests
-        run: pytest
+        run: pytest test/hw2/test_merge_sort.py
 
       - name: Test with pytest
         run: |
