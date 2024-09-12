@@ -5,6 +5,7 @@ merge sort to produce a sorted version of the same
 import sys
 import os
 # Add the src/hw2 directory to the system path
+# pylint: disable=wrong-import-order
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src/hw2')))
 from rand import random_array
 
