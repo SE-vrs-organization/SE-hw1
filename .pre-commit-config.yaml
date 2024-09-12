@@ -1,0 +1,18 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.5.7
+    hooks:
+      - id: autopep8
+        args: [--max-line-length=79]
+  - repo: https://github.com/pre-commit/mirrors-pylint
+    rev: ''
+    hooks:
+      - id: pylint
+        args: ["--disable=R,C"]  # Optional: disable warnings/errors
+  - repo: local
+    hooks:
+      - id: radon
+        name: Radon CC (Cyclomatic Complexity)
+        entry: radon cc -nc .
+        language: python
+        types: [python]
