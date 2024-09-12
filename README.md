@@ -7,4 +7,4 @@ Public repository for SE homework 1
 ![Pytest](https://github.com/SE-vrs-organization/SE-hw1/actions/workflows/ci.yaml/badge.svg?event=push)
 [![AutoPEP8](https://img.shields.io/badge/code%20style-autopep8-brightgreen)](https://github.com/hhatto/autopep8)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
-[![Radon](https://img.shields.io/badge/radon-passing-brightgreen)]()
+![Radon](https://img.shields.io/badge/radon-passing-brightgreen)
