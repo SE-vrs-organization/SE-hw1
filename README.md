@@ -6,10 +6,8 @@ Public repository for SE homework 1
 [![Platform-Linux](https://img.shields.io/badge/Platform-Linux-blue)](https://www.linux.org/)
 ![Pytest](https://github.com/SE-vrs-organization/SE-hw1/actions/workflows/ci.yaml/badge.svg?event=push)
 
-[autopep8-badge]:https://img.shields.io/badge/autopep8-green
-[autopep8-url]:https://pypi.org/project/autopep8/
+[![autopep8](https://img.shields.io/badge/autopep8-green)](https://pypi.org/project/autopep8/)
 
-[pylint-badge]:https://img.shields.io/badge/pylint-green
-[pylint-url]:https://pypi.org/project/pylint/
+[![pylint](https://img.shields.io/badge/pylint-green)](https://pypi.org/project/pylint/)
 
 [![Radon](https://img.shields.io/badge/radon-passing-brightgreen)](https://pypi.org/project/radon/)
