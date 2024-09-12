@@ -1,12 +1,6 @@
 # SE-hw1
 Public repository for SE homework 1
 
-[![Static Badge][python-badge]][python-url]
-[![Static Badge][apache-badge]][apache-url]
-[![Static Badge][linux-badge]][linux-url]
-[![Static Badge][autopep8-badge]][python-url]
-[![Static Badge][pylint-badge]][pylint-url]
-
 [![Language-Python](https://img.shields.io/badge/Language-Python-green)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/SE-vrs-organization/SE-hw1)](https://github.com/SE-vrs-organization/SE-hw1/blob/main/LICENSE)
 [![Platform-Linux](https://img.shields.io/badge/Platform-Linux-blue)](https://www.linux.org/)
