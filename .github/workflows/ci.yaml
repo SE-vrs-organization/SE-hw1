@@ -22,6 +22,9 @@ jobs:
         run: |
           pip install autopep8 pylint radon pytest
 
+      - name: Set PYTHONPATH
+        run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src" >> $GITHUB_ENV
+        
       - name: Run autopep8
         run: |
           autopep8 --in-place --aggressive --aggressive src/hw2/hw2_debugging.py
