@@ -37,7 +37,7 @@ jobs:
           radon cc -nc src/hw2/hw2_debugging.py
 
       - name: Run tests
-        run: pytest tests/hw2
+        run: pytest tests/hw2/
 
       - name: Test with pytest
         run: |
