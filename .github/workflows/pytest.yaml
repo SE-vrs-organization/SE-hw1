@@ -25,9 +25,16 @@ jobs:
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src:$(pwd)/tests" >> $GITHUB_ENV
 
+      - name: Run autopep8
+        run: |
+          autopep8 --in-place --aggressive --aggressive src/hw2/hw2_debugging.py
       - name: Run linting
         run: |
           pylint src/hw2/hw2_debugging.py --exit-zero
+
+      - name: Run Radon Cyclomatic Complexity
+        run: |
+          radon cc -nc src/hw2/hw2_debugging.py
 
       - name: Run tests
         run: |
