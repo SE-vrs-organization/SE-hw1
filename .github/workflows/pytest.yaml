@@ -25,6 +25,10 @@ jobs:
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)/src:$(pwd)/tests" >> $GITHUB_ENV
 
+      - name: Run linting
+        run: |
+          pylint src/hw2/hw2_debugging.py --exit-zero
+
       - name: Run tests
         run: |
           python3 -m pytest tests/hw2/
